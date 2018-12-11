@@ -7,7 +7,7 @@
 
 3、打开考试资源网，你会发现已经可以自动跳转显示答案了
 
-[![FY9OW8.gif](https://s1.ax1x.com/2018/12/11/FY9OW8.gif)](https://imgchr.com/i/FY9OW8)
+![FY9OW8.gif](https://s1.ax1x.com/2018/12/11/FY9OW8.gif)
 
 ---
 ## Other
