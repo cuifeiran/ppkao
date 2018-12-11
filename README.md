@@ -6,9 +6,9 @@
 2、then，点击这里：[考试资料网跳转显示答案](https://greasyfork.org/zh-CN/scripts/375373-考试资料网跳转显示答案)安装脚本
 
 3、打开考试资源网，你会发现已经可以自动跳转显示答案了
-   
-   (https://github.com/cuifeiran/ppkao/blob/master/screenshot.gif)
-   
+
+[![FY9OW8.gif](https://s1.ax1x.com/2018/12/11/FY9OW8.gif)](https://imgchr.com/i/FY9OW8)
+
 ---
 ## Other
 
