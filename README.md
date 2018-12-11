@@ -7,6 +7,8 @@
 
 3、打开考试资源网，你会发现已经可以自动跳转显示答案了
    
+   (https://github.com/cuifeiran/ppkao/blob/master/screenshot.gif)
+   
 ---
 ## Other
 
