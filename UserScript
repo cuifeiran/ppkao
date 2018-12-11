@@ -1,12 +1,13 @@
 // ==UserScript==
-// @name         考试资料网答案显示
-// @namespace    https://greasyfork.org/zh-CN/scripts/31190-%E8%80%83%E8%AF%95%E8%B5%84%E6%96%99%E7%BD%91%E7%AD%94%E6%A1%88%E6%98%BE%E7%A4%BA
-// @version      0.4.2
-// @description  对单个题目进行跳转，使得跳转后的页面显示题目的答案
+// @name         考试资料网跳转显示答案
+// @namespace https://github.com/cuifeiran/ppkao/
+// @version      0.1.2
+// @description  对单个题目进行跳转，使得跳转后的页面显示题目的答案。期间可能需要验证
 // @author       Dave
 // @match        *://www.ppkao.com/tiku/shiti/*
 // @match        *://www.ppkao.com/kaoti/*
 // @include      *://www.ppkao.com/tiku/shiti/*
+// @include      *://www.ppkao.com/shiti/*
 // @include      *://www.ppkao.com/kaoti/*
 //@exclude       *://www.ppkao.com/kaoti/daan/*
 // @grant        none
@@ -24,17 +25,16 @@
  var numList = iSite.match(reg);   
  var isKaoti =new RegExp("kaoti").test(iSite);
  var isTiku =new RegExp("tiku").test(iSite);
+ var isShiti =new RegExp("shiti").test(iSite);
  var sUrl="";
- if (isKaoti===true)
-  {
-  sUrl='https://api.ppkao.com/mnkc/kaoti/?id='+ numList;
-  }
+ if (isKaoti===true){sUrl='https://api.ppkao.com/mnkc/kaoti/?id='+ numList;}
  else
   {
-   if(isTiku===true)
-   {
-    sUrl='https://api.ppkao.com/mnkc/tiku/?id='+ numList;
-   }  
+    if(isTiku===true){sUrl='https://api.ppkao.com/mnkc/tiku/?id='+ numList;}
+    else{
+          if(isShiti===true){sUrl='https://api.ppkao.com/mnkc/shiti/?id='+ numList;}
+        }
+      
   }     
  window.location.href =sUrl;
 })();
