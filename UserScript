@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name            考试资料网跳转显示答案
 // @namespace       https://github.com/cuifeiran/ppkao/
-// @version         0.1.2
+// @version         0.1.3
 // @description     对单个题目进行跳转，使得跳转后的页面显示题目的答案。期间可能需要验证,遇到问题可以在GitHub issue我～
 // @author          Dave
 // @match           *://www.ppkao.com/tiku/shiti/*
