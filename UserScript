@@ -35,15 +35,7 @@
         if(isTiku===true){sUrl='https://api.ppkao.com/mnkc/tiku/?id='+ numList;window.location.href =sUrl;}
         else{
             if(isShiti===true){sUrl='https://api.ppkao.com/mnkc/shiti/?id='+ numList;window.location.href =sUrl;}
-            else{
-                if(isDaan===true){
-                    var html = '<div id="showQRcode" style="position: fixed;right:30px;bottom: 0px;"><a style="font-size: 14px;display:block;color:red;" onclick="$(this).parent().remove();" hidden="javascripe:void(0)" >不想打赏脚本作者，点击此处关闭</a><img width="420" height="210" src="https://s1.ax1x.com/2018/12/11/FJ47an.jpg"></img></div>'
-                    var div = document.createElement('div');
-                    div.setAttribute('id', 'showQRcode');
-                    div.innerHTML = html;
-                    document.body.appendChild(div);
-                }
-            }
+           
         }
      }
 
